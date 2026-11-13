@@ -32,6 +32,7 @@ jobs:
             echo "$LATEST_RELEASE" | head -c 500
             exit 1
           fi
+
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "最新版本: $VERSION"
           
